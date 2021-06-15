@@ -2,6 +2,8 @@
 using namespace std;
 
 int main(){
+    cout<<"Hello Shikkhangon BD"<<endl;
     cout<<"Hello Shikkhangon BD";
+
     return 0;
 }
