@@ -6,7 +6,7 @@ int main(){
     int num1;
     double num2;
     char word;
-    string myName;
+    string nickName;
 
     //taking input
     cout<<"Enter an integer type number = ";
@@ -18,14 +18,14 @@ int main(){
     cout<<"\nEnter a character = ";
     cin>>word;
 
-    cout<<"\nEnter your name = ";
-    cin>>myName;
+    cout<<"\nEnter your nick name = ";
+    cin>>nickName;
 
     //printing output
     cout<<"\nInteger type number = "<<num1<<endl;
     cout<<"Double type number = "<<num2<<endl;
     cout<<"Character type = "<<word<<endl;
-    cout<<"String type = "<<myName;
+    cout<<"String type = "<<nickName;
 
     return 0;
 }
