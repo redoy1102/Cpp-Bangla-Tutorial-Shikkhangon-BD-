@@ -3,10 +3,12 @@
 using namespace std;
 
 int main(){
-    string firstName = "John";
-    string lastName = "Doe";
+    string firstName = "Md Fuadul";
+    string lastName = "Islam Redoy";
 
-    string fullName = firstName + lastName; //concatenation
+    string fullName = firstName + " " + lastName; //concatenation
 
     cout << fullName;
+
+    return 0;
 }

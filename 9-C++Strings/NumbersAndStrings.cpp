@@ -1,13 +1,12 @@
 #include<iostream>
 #include<string>
 
+using namespace std;
 int main(){
-    int x = 10, y = 20;
+    string x = "10";
+    int y = 20;
+
     
+    string z = x + y;
 
-
-
-
-
-    return 0;
 }
