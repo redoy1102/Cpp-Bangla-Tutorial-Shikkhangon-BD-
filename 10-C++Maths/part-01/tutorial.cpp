@@ -1,31 +1,33 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
+
 int main(){
     int x = 10;
     int y = 20;
+    int z = 25;
+    double value = 2.50;
+    int a = 10;
     int result;
 
     //max()
     result = max(x,y);
-    cout << "Maximum number = " << result;
+    cout<<"Maximum value = " << result;
 
     //min()
     result = min(x,y);
-    cout << endl << "Minimum number = " << result;
+    cout<<endl<<"Minimum value = "<<result;
 
-    //sqrt
-    int z = 25;
+    //sqrt()
     result = sqrt(z);
-    cout << endl << "square root = " << result;
+    cout<<endl<<"Sqrt = "<<result;
 
-    //round
-    int a = 10.25;
-    result = round(a);
-    cout << endl << "Round number = " << result;
+    //round()
+    result = round(value);
+    cout<<endl<<"Round = "<<result;
 
-    //log
-    result = log(10);
-    cout << endl << "Log = " << result;
-
+    //log()
+    result = log(a);
+    cout<<endl<<"Log = "<<result;
+    return 0;
 }

@@ -9,7 +9,7 @@ int main(){
     result = abs(x);
     cout << "Absolute = " << result;
 
-    //acos() & asin & atan
+    //acos() & asin() & atan()
     double y = 1.0;
     result = acos(y);
     cout << endl << "acos("<< y <<") = " << result << " radians";
