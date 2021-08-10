@@ -1,14 +1,20 @@
 #include<iostream>
 using namespace std;
 
-class MyClass {     // The class
-  public:           // Access specifier
-    MyClass() {     // Constructor
-      cout << "Hello World!";
+class input {
+  public:  
+  int x, y;         
+    input() {     // Constructor
+      cout << "Enter two numbers = ";
+      cin>>x>>y;
+    }
+    void display(){
+      cout<<"Sum of two numbers = "<<x + y;
     }
 };
 
 int main() {
-  MyClass myObj;    // Create an object of MyClass (this will call the constructor)
+  input myObj;
+  myObj.display();
   return 0;
 }
