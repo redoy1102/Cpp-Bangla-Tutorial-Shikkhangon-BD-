@@ -1,16 +1,21 @@
 #include<iostream>
 using namespace std;
-float over(float var){
-    if(var < 0.0)
-        var = -var;
-    return var;
+
+int abs(int x){
+    if(x < 0)
+        x = -x;
+    return x;
 }
-int over(int var){
-    if(var < 0)
-        var = -var;
-    return var;
+
+float abs(float x){
+    if(x < 0)
+        x = -x;
+    return x;
 }
+
 int main(){
-    cout<<"Absolute value of -5 = "<<over(-5)<<endl;
-    cout<<"Absolute value of 5.5 = "<<over(5.5f)<<endl;
+    cout<<"Absolute value of -5 = "<<abs(-5)<<endl;
+    cout<<"Absolute value of -5.5 = "<<abs(-5.5f);
+
+    return 0;
 }
