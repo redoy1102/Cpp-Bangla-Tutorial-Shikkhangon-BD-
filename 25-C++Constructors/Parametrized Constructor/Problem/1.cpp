@@ -2,21 +2,21 @@
 #include<iostream>
 using namespace std;
 class tutorial{
-    int len, wid;
     public:
+    int wid, len;
     tutorial(int x, int y){
-        len = x;
-        wid = y;
+        wid = x;
+        len = y;
     }
-
     int display(){
-        return len*wid;
+        return wid * len;
     }
 };
 
 int main(){
-    tutorial wall1(20,10), wall2(30,40);
-    
-    cout<<"Area of wall-1 = "<<wall1.display()<<endl;
-    cout<<"Area of wall-2 = "<<wall2.display();
+    tutorial wall1(10, 20), wall2(30, 40);
+    cout<<"Area of wall-1: "<<wall1.display()<<endl;
+    cout<<"Area of wall-2: "<<wall2.display()<<endl;
+
+    return 0;
 }
