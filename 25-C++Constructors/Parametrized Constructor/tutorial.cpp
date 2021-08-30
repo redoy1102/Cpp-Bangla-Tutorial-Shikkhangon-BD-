@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
+
 class student {
     public:
     student(){
-        cout<<"I am default constructor."<<endl;
+        cout<<"I am default constructor"<<endl;
     }
-
     student(int x, int y){
-        cout<<"x + y = "<<x + y;
+        cout<<x + y<<endl;
     }
 };
+
 int main(){
-    student obj, obj1(10, 20);
+    student obj(10, 15), obj1, obj2;
 }

@@ -15,8 +15,7 @@ class tutorial{
 };
 
 int main(){
-    tutorial wall1(20,10);
-    tutorial wall2(30,40);
+    tutorial wall1(20,10), wall2(30,40);
     
     cout<<"Area of wall-1 = "<<wall1.display()<<endl;
     cout<<"Area of wall-2 = "<<wall2.display();
