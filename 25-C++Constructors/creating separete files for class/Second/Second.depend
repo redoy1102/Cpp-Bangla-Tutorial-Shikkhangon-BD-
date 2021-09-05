@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1629697277 source:c:\c++ code\25-c++constructors\creating separete files for class\second\main.cpp
+	<iostream>
+	"second.h"
+
+1629696853 c:\c++ code\25-c++constructors\creating separete files for class\second\second.h
+
+1629696853 source:c:\c++ code\25-c++constructors\creating separete files for class\second\second.cpp
+	"second.h"
+	<iostream>
+

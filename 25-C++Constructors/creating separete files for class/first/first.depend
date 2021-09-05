@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1629652279 source:e:\c++ bangla video tutorial\code\25-c++constructors\creating separete files for class\first\mfirst.cpp
+	"mfirst.h"
+	<iostream>
+
+1629652279 e:\c++ bangla video tutorial\code\25-c++constructors\creating separete files for class\first\mfirst.h
+
+1629652279 source:e:\c++ bangla video tutorial\code\25-c++constructors\creating separete files for class\first\main.cpp
+	<iostream>
+	"mfirst.h"
+
